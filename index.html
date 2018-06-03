@@ -1,0 +1,337 @@
+<!--
+                                        ▒█▀▀█ ▒█▀▀█ ▀█▀ ▒█▄░▒█ ▒█▀▀█ ▀█▀ ▒█▄░▒█
+                                        ▒█▀▀▄ ▒█▄▄▀ ▒█░ ▒█▒█▒█ ▒█░▄▄ ▒█░ ▒█▒█▒█
+                                        ▒█▄▄█ ▒█░▒█ ▄█▄ ▒█░░▀█ ▒█▄▄█ ▄█▄ ▒█░░▀█
+
+
+            ▒█▀▀█ ▒█░▒█ ▒█░░▒█ ▀█▀ ▒█▄░▒█ ▒█▀▀█ 　 ▒█▀▄▀█ ░█▀▀█ ▒█▀▀▄ ▒█▀▀▀ 　 ▒█▀▀▀ ░█▀▀█ ▒█▀▀▀█ ▒█░░▒█
+            ▒█▀▀▄ ▒█░▒█ ▒█▄▄▄█ ▒█░ ▒█▒█▒█ ▒█░▄▄ 　 ▒█▒█▒█ ▒█▄▄█ ▒█░▒█ ▒█▀▀▀ 　 ▒█▀▀▀ ▒█▄▄█ ░▀▀▀▄▄ ▒█▄▄▄█
+            ▒█▄▄█ ░▀▄▄▀ ░░▒█░░ ▄█▄ ▒█░░▀█ ▒█▄▄█ 　 ▒█░░▒█ ▒█░▒█ ▒█▄▄▀ ▒█▄▄▄ 　 ▒█▄▄▄ ▒█░▒█ ▒█▄▄▄█ ░░▒█░░
+
+___________________________________________________________________________________________________________ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bringin || Make it Easy</title>
+
+    <!-- ================================ CSS ======================================= -->
+            <link rel="stylesheet" href="Assets/Css/Materialize/materialize.css">
+            <link rel="stylesheet" href="Assets/Css/Bringin/bringin.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- ================================ CSS ======================================= -->
+
+
+    <!-- ================================ JavaScript ======================================= -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+            <script src="Assets/Js/Materialize/materialize.js" charset="utf-8"></script>
+            <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- ================================ JavaScript ======================================= -->
+
+  </head>
+  <body>
+    <nav>
+       <div class="nav-wrapper green accent-4">
+
+         <div class="container-bri">
+           <a href="#!" class="brand-logo">BRINGIN</a>
+         <ul class="right hide-on-med-and-down">
+           <li><a href=""><i class="material-icons">notifications</i></a></li>
+           <li><a href=""><i class="material-icons">help_outline</i></a></li>
+           <li><a href=""><i class="material-icons">shop</i></a></li>
+           <li><a class="dropdown-trigger" data-target="account"><i class="material-icons center">account_circle</i></a></li>
+         </ul>
+       </div>
+         <ul id="account" class="dropdown-content">
+              <li><a href="#!">Register</a></li>
+              <li class="divider"></li>
+              <li><a href="#!">Login</a></li>
+          </ul>
+       </div>
+     </nav>
+
+     <div class="bri-height"></div>
+    <div class="row">
+
+           <div class="col m10 push-m2">
+             <div class="card">
+               <div class="card-content bri-front-profile">
+                 <div class="row">
+
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col m3">
+                     <div class="card">
+                       <div class="card-image">
+                         <img src="https://cdn.shopify.com/s/files/1/2030/2737/products/geometric-ice_450x450.jpg?v=1501549123">
+
+                       </div>
+                       <div class="card-content">
+                         <h1 class="bri-product-title">Buah-Buaha</h1>
+                         <h1 class="bri-product-title"><b>Rp.10.000</b> / KG</h1>
+                       </div>
+                       <div class="card-action">
+                         <span class="bri-rating">
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star</i>
+                           <i class="material-icons">star_half</i>
+
+                         </span>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons">add_shopping_cart</i></a>
+                         <a href="#" class="bri-product-action-icon"><i class="material-icons bri-favorite">favorite_border</i></a>
+                       </div>
+                     </div>
+                   </div>
+
+
+                  </div>
+               </div>
+
+             </div>
+           </div>
+
+           <div class="col m2 pull-m10">
+             <div class="card">
+               <div class="card-content bri-front-profile">
+                 <span class="card-title"></span>
+                  <img class="bri-front-photo" width="50" height="50" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                    <div class="bri-hight"></div>
+                    <br>
+                  <p class="bri-front-name" ><i class="material-icons left">person</i>Devry kawiryan</p>
+                  <br>
+                  <p class="bri-front-balance" ><i class="material-icons left">account_balance_wallet</i>Rp.50.000</p>
+               </div>
+
+             </div>
+           </div>
+
+           <div class="col m2 pull-m10">
+             <div class="card">
+               <div class="card-content bri-front-profile">
+                 <span class="card-title"></span>
+                  <img class="bri-front-photo" width="50" height="50" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                    <div class="bri-hight"></div>
+                    <br>
+                  <p class="bri-front-name" ><i class="material-icons left">shop</i>Indah Terpadu</p>
+                  <br>
+                  <p class="bri-front-balance" ><i class="material-icons left">stars</i>0 Point</p>
+               </div>
+
+             </div>
+           </div>
+
+
+
+    </div>
+
+
+
+             <footer class="page-footer green accent-4">
+               <div class="container">
+                 <div class="row">
+                   <div class="col l6 s12">
+                     <h5 class="white-text">Footer Content</h5>
+                     <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                   </div>
+                   <div class="col l4 offset-l2 s12">
+                     <h5 class="white-text">Links</h5>
+                     <ul>
+                       <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                       <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                       <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                       <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                     </ul>
+                   </div>
+                 </div>
+               </div>
+               <div class="footer-copyright">
+                 <div class="container">
+                 © 2014 Copyright Text
+                 <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                 </div>
+               </div>
+             </footer>
+
+     <script type="text/javascript">
+       $(".dropdown-trigger").dropdown();
+     </script>
+  </body>
+</html>
